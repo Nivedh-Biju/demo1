@@ -20,7 +20,7 @@ public class trianglecuts
 			 if(((x3-x1)*(x3-x2))<0){res=true;}
 			 if(((y1-y2)*(y1-y3))<0) {res=true;}
 			 if(((y2-y1)*(y2-y3))<0) {res=true;}
-			 if(((y3-y1)*(y3-y2))<0) {res=true;}
+			 if(((y3-y1)*(y3-y2))<0) { res=true;}///////
 			 if((y1==y2)&&(y1==y3)){res=false;}
 			 if((x1==x2)&&(x1==x3)){res=false;}
 			 if(res==true) { System.out.println("YES");}
