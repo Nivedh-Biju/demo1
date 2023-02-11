@@ -23,7 +23,7 @@ public class trianglecuts
 			 if(((y3-y1)*(y3-y2))<0) {res=true;}
 			 if((y1==y2)&&(y1==y3)){res=false;}
 			 if((x1==x2)&&(x1==x3)){res=false;}
-			 if(res==true) {System.out.println("YES");}
+			 if(res==true) {  System.out.println("YES");}
 			 else {System.out.println("NO");}
 			}
 		}
